@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arsitektur Model AI"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model ini dikembangkan menggunakan TensorFlow dan Keras. Setelah pelatihan, model dikonversi ke format TensorFlow Lite (.tflite) agar dapat dijalankan secara efisien di perangkat Android."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Struktur Model:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Input Layer: 5 Neuron (fitur medis)\n- Hidden Layer 1: 32 Neuron, ReLU\n- Hidden Layer 2: 16 Neuron, ReLU\n- Output Layer: 2 Neuron, Softmax (RENDAH / TINGGI)"
+            android:textSize="16sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Parameter: ~1.500\nUkuran File Model: ± 20 KB\nFormat: TensorFlow Lite (.tflite)"
+            android:textSize="16sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model ini dioptimalkan untuk dijalankan langsung di perangkat tanpa koneksi internet."
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

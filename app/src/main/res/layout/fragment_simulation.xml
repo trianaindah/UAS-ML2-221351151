@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Form Input -->
+        <EditText
+            android:id="@+id/inputAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usia (tahun)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputSystolic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tekanan Darah Sistolik"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputCholesterol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kolesterol"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputHemoglobin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hemoglobin"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/inputSerum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Serum Creatinine"
+            android:inputType="numberDecimal" />
+
+        <!-- Tombol -->
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prediksi Risiko" />
+
+        <!-- Hasil -->
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil akan ditampilkan di sini"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Bar Plot -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

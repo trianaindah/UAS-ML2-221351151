@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prediksi Risiko Kematian - TFLite"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi ini dibuat untuk memprediksi tingkat risiko kematian berdasarkan data medis seperti usia, tekanan darah, dan hasil laboratorium pasien. Model AI dilatih menggunakan TensorFlow dan dikonversi ke format TensorFlow Lite agar dapat dijalankan di perangkat Android."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dikembangkan oleh:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triana Indah Permatasari\nKelas: Malam B\nMata Kuliah: Pembelajaran Mesin 2\nNIM: 221351151"
+            android:textSize="15sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Versi Aplikasi: 1.0.0"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</ScrollView>

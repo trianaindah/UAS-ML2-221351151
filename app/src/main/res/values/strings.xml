@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PODApps</string>
+    <string name="navigation_drawer_open">Buka menu</string>
+    <string name="navigation_drawer_close">Tutup menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

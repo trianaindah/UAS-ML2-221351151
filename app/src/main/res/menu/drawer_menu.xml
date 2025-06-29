@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_about"
+        android:title="Tentang Aplikasi"
+        android:icon="@drawable/ico_info"/>
+    <item
+        android:id="@+id/nav_dataset"
+        android:title="Dataset"
+        android:icon="@drawable/ico_data"/>
+    <item
+        android:id="@+id/nav_features"
+        android:title="Fitur Aplikasi"
+        android:icon="@drawable/ico_list"/>
+    <item
+        android:id="@+id/nav_model"
+        android:title="Arsitektur Model"
+        android:icon="@drawable/ico_model"/>
+    <item
+        android:id="@+id/nav_simulate"
+        android:title="Simulasi"
+        android:icon="@drawable/ico_play"/>
+</menu>
+
